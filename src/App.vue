@@ -5,31 +5,19 @@
       app
       dark
     >
-
-      <v-col class="ml-6 mt-6">
-        <v-row>
-        <img src="./assets/top_img.png"> 
-      </v-row>  
-
-      </v-col>
-      <v-col class="mt-6 ml-3 mr-3">
-      
-      <v-row>
-        <v-btn width="235" to="./home" >read-me</v-btn>
-      </v-row>
-
-      <v-row>
-        <v-btn width="235" to="./startgame" class="mt-3">start game</v-btn>
-      </v-row>
-
-      <v-row>
-        <v-btn width="235" class="mt-3" to="./ponggame">pong game</v-btn>
-      </v-row> 
-
-      </v-col>
-      <div class="d-flex align-start flex-column mb-6">
+      <v-col cols="12" class="d-flex flex-column justify-space-between" style="height: 30rem">
+        <v-col cols="12" class="d-flex  align-center flex-column">
+          <v-btn width="235" to="./home" >read-me</v-btn>
+          <v-btn width="235" to="./startgame" class="mt-3">start game</v-btn>
+          <v-btn width="235" class="mt-3" to="./ponggame">pong game</v-btn>
+        </v-col>
        
-      </div>
+        <v-col cols="12" class="d-flex align-end " >
+          <img src="./assets/top_img.png"> 
+        </v-col>
+        
+      </v-col>
+      
        
         
       
